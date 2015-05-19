@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ModuleManager">
+    <modules>
+      <module name="scripts" dirurl="file://$PROJECT_DIR$" current-layer="Debug">
+        <module-layer name="Debug">
+          <extension id="microsoft-csharp" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <extension id="microsoft-dotnet" sdk-module-name="" sdk-name="Microsoft .NET 2.0 (predefined)" target="NET_MODULE" debug="true" allow-source-roots="false" file-name="$ModuleName$.$TargetFileExt$" output-dir="$ModuleProductionOutputDirPath$" namespace-prefix="">
+            <define>DEBUG</define>
+            <define>TRACE</define>
+          </extension>
+          <content url="file://$MODULE_DIR$">
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/.consulo" />
+          </content>
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="System" />
+        </module-layer>
+        <module-layer name="Release">
+          <extension id="microsoft-csharp" unsafe-code="false" optimize-code="true" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <extension id="microsoft-dotnet" sdk-module-name="" sdk-name="Microsoft .NET 2.0 (predefined)" target="NET_MODULE" debug="false" allow-source-roots="false" file-name="$ModuleName$.$TargetFileExt$" output-dir="$ModuleProductionOutputDirPath$" namespace-prefix="">
+            <define>TRACE</define>
+          </extension>
+          <content url="file://$MODULE_DIR$">
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/.consulo" />
+          </content>
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="System" />
+        </module-layer>
+      </module>
+    </modules>
+  </component>
+</project>
