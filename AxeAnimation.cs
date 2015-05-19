@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections;
 
 public class AxeAnimation : MonoBehaviour {
-
+               //AXE KURWEUE
 	// Use this for initialization
 	void Start () {
 	

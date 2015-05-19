@@ -34,6 +34,8 @@ public GameObject bulletHole;
 	//pistolSparks.particleEmitter.emit = false;
 	//audio.clip = pistolShot;
 	//dupadupadupadupdupdupdupddddddddddddddDDDDD DUPA
+        //dupadupadupadupdupdupdupddddddddddddddDDDDD DUPA
+        //dupadupadupadupdupdupdupddddddddddddddDDDDD DUPA
 	}
 	
 	// Update is called once per frame
@@ -48,7 +50,7 @@ public GameObject bulletHole;
 			//animation.CrossFade("atak_siekiera_2");
 		//pistolSparks.particleEmitter.Emit();
 		//audio.Play();
-		
+
 		if (Physics.Raycast(transform.position, fwd, out hit)) {
 			if(hit.transform.tag == "Enemy" && hit.distance < range) {
 				hit.transform.gameObject.SendMessage("takeHit", damage);
