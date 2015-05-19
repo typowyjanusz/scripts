@@ -33,7 +33,7 @@ public GameObject bulletHole;
 	//pistolSparks = GameObject.Find("Sparks");
 	//pistolSparks.particleEmitter.emit = false;
 	//audio.clip = pistolShot;
-	
+	//dupadupadupadupdupdupdupddddddddddddddDDDDD DUPA
 	}
 	
 	// Update is called once per frame
