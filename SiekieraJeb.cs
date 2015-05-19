@@ -23,7 +23,7 @@ public GameObject bulletHole;
 
 	// Use this for initialization
 	void Start () {
-Screen.showCursor = false;
+//Screen.showCursor = false;
 
         
 	position = new Rect((Screen.width - crosshairTexture.width) / 2,
